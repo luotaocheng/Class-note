@@ -1,2 +1,2 @@
 # mei-
-freedom,happy,love,skills
+专业课程的笔记
