@@ -1,1 +1,1 @@
-[linux基础篇](/linuxbasic.md)
+[linux基础篇](linuxbasic.md)
