@@ -30,7 +30,7 @@
 1.pwd (print working directary)<br>
 2.ls (默认 -a:包括隐藏文件  -l:以列表方式显示)<br>
 3.mkdir  (mkdir -p /home/demo/rs     --创建多级目录)  <br>
-4.rm [-r,-f] filename
+4.rm [-r,-f] filename <br>
 5.touch(某人说了句“摸一下”) <br>
 6.cp (copy)
         # cp a.md b/      //copy a.md to b
@@ -38,12 +38,11 @@
 7.mv ()    <br>
         # mv oldnamefile newnamefile   //重命令
         # mv file newfile        //移动命令
-8.查找
-```
-# cat -n FileName | more
-# cat -n FileName
-# more FileName
-# less FileName
-```
+8.查找<br>
+        # cat -n FileName | more
+        # cat -n FileName
+        # more FileName
+        # less FileName
+
 
 
