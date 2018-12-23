@@ -32,10 +32,10 @@
 3.mkdir  (mkdir -p /home/demo/rs     --创建多级目录)  <br>
 4.rm [-r,-f] filename <br>
 5.touch(某人说了句“摸一下”) <br>
-6.cp (copy)
+6.cp (copy)<br>
         # cp a.md b/      //copy a.md to b
         # cp -r test/ b/   //复制目录到目录，-r是递归作用
-7.mv ()    <br>
+7.mv ()<br>
         # mv oldnamefile newnamefile   //重命令
         # mv file newfile        //移动命令
 8.查找<br>
