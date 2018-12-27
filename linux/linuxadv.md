@@ -12,6 +12,7 @@
 - 删除用户
         userdel ltc                   //保留家目录式删除用户
         userdel -r ltc                //删除家目录式删除
+        
 ### 六、使用指令
 #### 运行级别
 <b>级别设置原因</b>：为了在一些领域或某些用户而设置的权限大小
@@ -49,5 +50,32 @@
         # more FileName
         # less FileName
 
+9、重新定向（覆盖） 
 
+        * >
+        # ls -l > a.txt      //磁盘信息文件覆盖
+        # cat a.txt > b.txt    //文件a复制到文件b 
+
+10、追加（尾部）
+
+        * >>
+        # ls -l >> a.txt     //磁盘信息文件追加
+        # cat a.txt >> b.txt   //文件追加
+        # echo "hello world!" >> c.txt   //文件内容追加
+
+11、echo、head、tail
+- cho（在终端上显示内容）
+
+        echo $PATH      //显示环境变量，大写PATH
+        echo helloworld      //显示文本
+
+
+- head（显示文件前面行内容）
+
+        head -n 3 a.txt     //显示文件前三行内容
+
+- tail（显示后面行内容）
+
+        tail -2 b.txt         //显示后两行的内容
+        tail -f b.txt         //监控文件是否有变化
 
