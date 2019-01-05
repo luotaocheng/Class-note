@@ -79,3 +79,34 @@
         tail -2 b.txt         //显示后两行的内容
         tail -f b.txt         //监控文件是否有变化
 
+11.ln指令 （软链接，类似Windows上的快捷方式)
+        # ln -s [源文件或目录] [软链接名称]
+        # ln -s /root fastcut      //创建软链接
+        # rm -r fastcut            //删除软链接
+12.history指令 （查看已执行的指令）
+        # history       //显示所有历史指令
+        # history 10    //显示指定数目的指令
+        # ！200         //执行历史编号为200的指令
+#### 时间日期类
+1.date指令
+        # date           //显示当前时间
+        # date "+%Y-%m-%d %H:%M:%S"  //显示年月日
+        
+        # date -s "2019-1-5 10:15:22"  //设置时间
+2.cal指令（显示日历时间）
+        # cal            //当月的日历
+        # cal 2019       //显示某年的日历
+#### 搜索查找类
+1.find指令(查找文件)
+        # find 【查找的范围】 【按方式查】 [文件名称]
+        # find /home -name new.txt    //查找文件
+        # find /opt -user root     //查找用户的文件
+        # find / -size +20M      //根目录下查找大于20M的文件
+        # find / -name *.txt     //按通配符查找
+        
+2.locate指令（快速定位文件路径）
+        # updatedb      //创建数据库（必须要做的）
+        # locate hello.txt    //快速定位文件的目录
+3.grep指令，管道符号 |
+        # grep [-n<显示匹配行和行号> ,-i<忽略大小写>] 【关键字】 [源文件]
+        # cat a.md | grep -ni hello  //查看文件并通过管道交给grep指令
