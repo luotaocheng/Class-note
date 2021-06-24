@@ -4,3 +4,4 @@
 - [linux学习](/linux/linux.md)
 - [python](/python/python.md)
 - [绕过校园登陆科学上网](/webjump.md)
+- [learning resource](/learning resource.md)
